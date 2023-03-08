@@ -2,8 +2,10 @@ import React, { useEffect } from "react";
 import Helper from "../../utils/Helper";
 import { ecom_pc, portfolio_pc } from "../../utils/images";
 import "./ProjectsPage.css";
+import data from "../../utils/projectsData.json";
 
 const ProjectsPage = () => {
+  console.log(data);
   return (
     <section className="projects-section">
       <div className="projects-page">
