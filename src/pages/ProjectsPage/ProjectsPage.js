@@ -9,9 +9,9 @@ const ProjectsPage = () => {
   return (
     <section className="projects-section">
       <div className="projects-page">
-        <div className="project-box">
-          <div className="project-image-container">
-            <img src={ecom_pc} alt="" className="projects-page-img1" />
+        <div className="project-box" data-aos="fade-right" data-aos-duration="2000">
+          <div className="project-image-container1">
+            <img src={ecom_pc} alt="" className="projects-page-img" />
           </div>
           <div className="project-description-container">
             <h2>ClickBait</h2>
@@ -39,8 +39,8 @@ const ProjectsPage = () => {
               <li>Optimized for all devices: desktop, tablet, and mobile.</li>
             </ul>
           </div>
-          <div className="project-image-container">
-            <img src={portfolio_pc} alt="" className="projects-page-img1" />
+          <div className="project-image-container2">
+            <img src={portfolio_pc} alt="" className="projects-page-img" />
           </div>
         </div>
       </div>
