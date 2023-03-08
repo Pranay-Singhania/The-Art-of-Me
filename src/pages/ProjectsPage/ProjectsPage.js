@@ -9,11 +9,11 @@ const ProjectsPage = () => {
   return (
     <section className="projects-section">
       <div className="projects-page">
-        <div className="project-box" data-aos="fade-right" data-aos-duration="2000">
-          <div className="project-image-container1">
+        <div className="project-box">
+          <div className="project-image-container1" data-aos="fade-right" data-aos-duration="1000">
             <img src={ecom_pc} alt="" className="projects-page-img" />
           </div>
-          <div className="project-description-container">
+          <div className="project-description-container" data-aos="fade-left" data-aos-duration="1000">
             <h2>ClickBait</h2>
             <p>
               Technologies used : <span className="techStack">React</span>, <span className="techStack">Redux Toolkit</span>,{" "}
@@ -27,7 +27,7 @@ const ProjectsPage = () => {
           </div>
         </div>
         <div className="project-box">
-          <div className="project-description-container">
+          <div className="project-description-container" data-aos="fade-right" data-aos-duration="1000">
             <h2>The Art of Me</h2>
             <p>
               Technologies used : <span className="techStack">React</span>, <span className="techStack">EmailJs</span>,{" "}
@@ -39,7 +39,7 @@ const ProjectsPage = () => {
               <li>Optimized for all devices: desktop, tablet, and mobile.</li>
             </ul>
           </div>
-          <div className="project-image-container2">
+          <div className="project-image-container2" data-aos="fade-left" data-aos-duration="1000">
             <img src={portfolio_pc} alt="" className="projects-page-img" />
           </div>
         </div>
