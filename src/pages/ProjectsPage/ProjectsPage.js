@@ -9,6 +9,7 @@ const ProjectsPage = () => {
   return (
     <section className="projects-section">
       <div className="projects-page">
+        <h1>Projects</h1>
         <div className="project-box">
           <div className="project-image-container1" data-aos="fade-right" data-aos-duration="1000">
             <img src={ecom_pc} alt="" className="projects-page-img" />

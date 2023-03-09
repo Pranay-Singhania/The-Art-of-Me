@@ -9,9 +9,9 @@ const AboutPage = () => {
         <h1>About Me</h1>
         <div className="about-container">
           <div className="about-right">
-            <img src={img2} width="340px" alt="" />
+            <img src={img2} width="340px" alt="" data-aos="fade-right" data-aos-duration="1000" />
           </div>
-          <div className="about-left">
+          <div className="about-left" data-aos="fade-right" data-aos-duration="1000">
             <p className="about-desc">
               <span>Greetings, fellow internet traveler! </span>
               <br />
@@ -28,8 +28,8 @@ const AboutPage = () => {
             </p>
             <p className="about-desc">
               <span>
-                But there's more to life than just software validation, and that's why I'm currently on the lookout for an exciting new opportunity as
-                a frontend developer. I want to dive deeper into this field and learn everything there is to know about frontend development.
+                I'm currently on the lookout for an exciting new opportunity as a frontend developer. I want to dive deeper into this field and learn
+                everything there is to know about frontend development.
                 {/* If
                 you're looking for someone who is passionate, driven, and always willing to learn, then look no further.  */}
                 Oh, and in case you're wondering, I'm also a 664 GATE rank holder - so you know I've got the brains to back up my ambition.

@@ -8,7 +8,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 }
 .skills-section h1{
     margin-left:15px;
@@ -33,9 +32,9 @@
     content: '';
     position: absolute;
     bottom: 21px;
-    right: 90px;
+    right: 3rem;
     height: 3px;
-    width: 80%;
+    width: 85%;
     background: var(--neon);
 }
 .skills-section h1::before{
@@ -50,7 +49,6 @@
 }
 .skills-icons-set{
     font-family: var(--font-ubuntu);
-    
 }
 .skills-icon{
     width: 100px;
