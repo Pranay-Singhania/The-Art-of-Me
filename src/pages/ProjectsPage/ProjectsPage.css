@@ -53,6 +53,11 @@
     padding-bottom: 4rem;
     font-family: var(--font-ubuntu);
 }
+.centerdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .projectone-links{
     display: flex;
     flex-direction: row;
