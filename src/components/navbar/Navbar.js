@@ -1,29 +1,40 @@
-import React from 'react'
-import './Navbar.css';
+import React from "react";
+import "./Navbar.css";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
-    <nav className='nav-container'>
-        <div className='nav-left'>
-            <a href="/">Pranay Singhania</a>
-        </div>
-        <div className='nav-right'>
-            <a href="/about" className='nav-link underline-btn'>
-                about
-            </a>
-            <a href="/about" className='nav-link underline-btn'>
-                skills
-            </a>
-            <a href="/about" className='nav-link underline-btn'>
-                projects
-            </a>
-            <a href="/about" className='nav-link underline-btn'>
-                contact
-            </a>
-            <button className='nav-resume-btn slide-btn'>Resume</button>
-        </div>
+    <nav className="nav-container">
+      <div className="nav-left">
+        <Link to="home" smooth={true}>
+          pranay-singhania.com
+        </Link>
+      </div>
+      <div className="nav-right">
+        <span className="nav-link underline-btn">
+          <Link to="about" smooth={true} duration={500}>
+            about
+          </Link>
+        </span>
+        <span className="nav-link underline-btn">
+          <Link to="skills" smooth={true} duration={500}>
+            skills
+          </Link>
+        </span>
+        <span className="nav-link underline-btn">
+          <Link to="projects" smooth={true} duration={500}>
+            projects
+          </Link>
+        </span>
+        <span className="nav-link underline-btn">
+          <Link to="contact" smooth={true} duration={500}>
+            contact
+          </Link>
+        </span>
+        <button className="nav-resume-btn slide-btn">Resume</button>
+      </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

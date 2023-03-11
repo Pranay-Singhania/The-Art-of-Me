@@ -4,7 +4,7 @@ import { html_icon, css_icon, js_icon, react_icon, redux_icon, sass_icon, parcel
 
 const SkillsPage = () => {
   return (
-    <section className="skills-section">
+    <section className="skills-section sec" name="skills">
       <div className="skills-page">
         <h1>Skills</h1>
         <div className="skills-icons-set" data-aos="fade-right" data-aos-duration="1000">

@@ -12,12 +12,14 @@
 }
 .nav-left{
     padding-left: 50px;
+    font-family: var(--font-ubuntu);
+    cursor: pointer;
 }
 .nav-right{
     padding-right: 50px;
     font-family: var(--font-ubuntu);
 }
-.nav-left a{
+.nav-left p{
     color: var(--neon);
     font-size: 22px;
     font-weight: bold;

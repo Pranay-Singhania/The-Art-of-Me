@@ -6,7 +6,6 @@
 .main-content{
     position: relative;
     z-index: 4;
-    height: 198rem;
     padding: 0 120px;
     background-color: black;
 }

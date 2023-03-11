@@ -73,12 +73,7 @@ const ContactPage = () => {
 
   return (
     <>
-      {showConfetti && (
-        <Confetti
-          width={windowSize.width - 20}
-          height={windowSize.height - 20}
-        />
-      )}
+      {showConfetti && <Confetti width={windowSize.width - 20} height={windowSize.height - 20} />}
       <section className="contact-section">
         <div className="contact-page">
           <div className="contact-page-inner">
@@ -112,8 +107,7 @@ const ContactPage = () => {
                       rows="3"
                       name="message"
                       //  value="hello" //just setting default values
-                      required
-                    ></textarea>
+                      required></textarea>
                   </div>
                   <div className="contact-email-entities flex-center email-btn-box">
                     {msg === "Sent" ? (
@@ -121,16 +115,11 @@ const ContactPage = () => {
                         className="email-submit-btn-sent"
                         onClick={(e) => {
                           e.preventDefault();
-                        }}
-                      >
+                        }}>
                         <span>{msg}</span>
                       </button>
                     ) : (
-                      <button
-                        className="email-submit-btn"
-                        type="submit"
-                        value="Send"
-                      >
+                      <button className="email-submit-btn" type="submit" value="Send">
                         <span>{showLoader ? <Loader /> : msg}</span>
                       </button>
                     )}
