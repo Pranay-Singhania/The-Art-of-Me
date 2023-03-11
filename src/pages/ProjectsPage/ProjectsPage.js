@@ -5,6 +5,7 @@ import "./ProjectsPage.css";
 import data from "../../utils/projectsData.json";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LiveTvIcon from "@mui/icons-material/LiveTv";
+import { Link } from "react-scroll";
 
 const ProjectsPage = () => {
   console.log(data);
@@ -61,14 +62,14 @@ const ProjectsPage = () => {
                 <li>Optimized for all devices: desktop, tablet, and mobile.</li>
               </ul>
               <div className="projecttwo-links">
-                <a href="https://pranay-singhania.github.io/The-Art-of-Me/" target="_blank">
+                <Link to="home" smooth={true} duration={250}>
                   <button className="live-projects-links proj-slide-btn">
                     <span className="live-projects-links-span">Live</span>
                     <span>
                       <LiveTvIcon />
                     </span>
                   </button>
-                </a>
+                </Link>
                 <a href="https://github.com/Pranay-Singhania/The-Art-of-Me" target="_blank">
                   <button className="live-projects-links proj-slide-btn">
                     <span className="live-projects-links-span">Github</span>
