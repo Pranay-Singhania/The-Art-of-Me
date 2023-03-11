@@ -1,22 +1,13 @@
 import React from "react";
 import "./SkillsPage.css";
-import {
-  html_icon,
-  css_icon,
-  js_icon,
-  react_icon,
-  redux_icon,
-  sass_icon,
-  parcel_icon,
-  ts_icon,
-} from "../../utils/images";
+import { html_icon, css_icon, js_icon, react_icon, redux_icon, sass_icon, parcel_icon, ts_icon } from "../../utils/images";
 
 const SkillsPage = () => {
   return (
     <section className="skills-section">
       <div className="skills-page">
         <h1>Skills</h1>
-        <div className="skills-icons-set">
+        <div className="skills-icons-set" data-aos="fade-right" data-aos-duration="1000">
           <div className="skills-icons-set-known flex-row-center">
             <div className="skills-icon">
               <img src={html_icon} width="48px" alt="" />

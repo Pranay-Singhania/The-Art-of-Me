@@ -3,6 +3,8 @@ import Helper from "../../utils/Helper";
 import { ecom_pc, portfolio_pc } from "../../utils/images";
 import "./ProjectsPage.css";
 import data from "../../utils/projectsData.json";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LiveTvIcon from "@mui/icons-material/LiveTv";
 
 const ProjectsPage = () => {
   console.log(data);
@@ -25,6 +27,24 @@ const ProjectsPage = () => {
               <li>Implemented CRUD functionality to create, read, update, and delete products and data.</li>
               <li>Optimized for all devices: desktop, tablet, and mobile.</li>
             </ul>
+            <div className="projectone-links">
+              <a href="https://pranay-singhania.github.io/ClickBait/" target="_blank">
+                <button className="live-projects-links proj-slide-btn">
+                  <span className="live-projects-links-span">Live</span>
+                  <span>
+                    <LiveTvIcon />
+                  </span>
+                </button>
+              </a>
+              <a href="https://github.com/Pranay-Singhania/ClickBait/" target="_blank">
+                <button className="live-projects-links proj-slide-btn">
+                  <span className="live-projects-links-span">Github</span>
+                  <span>
+                    <GitHubIcon />
+                  </span>
+                </button>
+              </a>
+            </div>
           </div>
         </div>
         <div className="project-box">
@@ -39,6 +59,24 @@ const ProjectsPage = () => {
               <li>Included a user-friendly contact form to easily get in touch with me directly from the website.</li>
               <li>Optimized for all devices: desktop, tablet, and mobile.</li>
             </ul>
+            <div className="projecttwo-links">
+              <a href="https://github.com/Pranay-Singhania/ClickBait/" target="_blank">
+                <button className="live-projects-links proj-slide-btn">
+                  <span className="live-projects-links-span">Live</span>
+                  <span>
+                    <LiveTvIcon />
+                  </span>
+                </button>
+              </a>
+              <a href="https://github.com/Pranay-Singhania/ClickBait/" target="_blank">
+                <button className="live-projects-links proj-slide-btn">
+                  <span className="live-projects-links-span">Github</span>
+                  <span>
+                    <GitHubIcon />
+                  </span>
+                </button>
+              </a>
+            </div>
           </div>
           <div className="project-image-container2" data-aos="fade-left" data-aos-duration="1000">
             <img src={portfolio_pc} alt="" className="projects-page-img" />

@@ -8,12 +8,14 @@ const HomePage = () => {
     <section className="home-section">
       <div className="home-page">
         <h1>
-          Hi, I'm &nbsp;
-          <span style={{ color: "var(--neon)" }}>Pranay</span>
+          <span className="first-block">Hi, I'm &nbsp;</span>
+          <span className="second-block">
+            <span style={{ color: "var(--neon)" }}>Pranay</span>
+          </span>
           <br />
-          I'm a frontend developer.
+          <span className="third-block">I'm a frontend developer.</span>
         </h1>
-        <a>
+        <a className="fourth-block">
           <button className="hero-btn slide-btn flex-center">
             <span>View Work &nbsp;</span>
             <span>

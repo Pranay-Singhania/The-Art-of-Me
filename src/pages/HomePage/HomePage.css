@@ -19,9 +19,87 @@
     left: -250px;
     z-index: -1;
 }
+.first-block{
+    display: inline-block;
+    animation: firstBlockAnim 0.75s ease-in-out;
+}
+.second-block{
+    display: inline-block;
+    animation: secondBlockAnim 1.5s ease-in-out;
+}
+.third-block{
+    display: inline-block;
+    animation: thirdBlockAnim 2s ease-in-out;
+}
+.fourth-block{
+    display: inline-block;
+    animation: fourthBlockAnim 2.5s ease-in-out;
+}
+@keyframes firstBlockAnim{
+    from{
+        opacity: 0;
+        transform:translateX(-50%) ;
+    }
+    to{
+        opacity: 1;
+        transform:translateX(0) ;
+    }
+}
+@keyframes secondBlockAnim{
+    0%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 0;
+        transform:translateY(-50%) ;
+    }
+    90%{
+        opacity: 0.5;
+        transform:translateY(5%) ;
+    }
+    100%{
+        opacity: 1;
+        transform:translateY(0) ;
+    }
+}
+@keyframes thirdBlockAnim{
+    0%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 0;
+        transform:translateX(-15%) ;
+    }
+    90%{
+        opacity: 0.5;
+        transform:translateX(0.5%) ;
+    }
+    100%{
+        opacity: 1;
+        transform:translateX(0) ;
+    }
+}
+@keyframes fourthBlockAnim{
+    0%{
+        opacity: 0;
+    }
+    85%{
+        opacity: 0;
+        transform:translateX(-15%) ;
+    }
+    90%{
+        opacity: 0.5;
+        transform:translateX(0.5%) ;
+    }
+    100%{
+        opacity: 1;
+        transform:translateX(0) ;
+    }
+}
 .home-page{
     width:100%;
-    height: 100vh;
+    /* height: 100vh; */
+    height: 40.6rem;
     max-height: 800px;
     display: flex;
     flex-direction: column;
@@ -49,3 +127,23 @@
     left: 25px;
     opacity: 0.85;
 }
+/* @keyframes secondBlockAnim{
+    from{
+        opacity: 0;
+        transform:translateX(-100%) ;
+    }
+    to{
+        opacity: 1;
+        transform:translateX(0) ;
+    }
+}
+@keyframes thridBlockAnim{
+    from{
+        opacity: 0;
+        transform:translateX(-100%) ;
+    }
+    to{
+        opacity: 1;
+        transform:translateX(0) ;
+    }
+} */
