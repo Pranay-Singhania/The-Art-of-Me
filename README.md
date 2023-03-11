@@ -10,7 +10,6 @@ This is my personal **portfolio** website, developed using React, EmailJs, and C
 
     ✔ Animation on scroll: The website has smooth and elegant animations that trigger as the user scrolls through the content.
     ✔ Contact form: The form uses EmailJs to send the message to my email address.
-    ✔ Responsive design: The website is responsive and works well on all three devices - mobile, tablet, and PC.
 
 ## **Tech stack**
 
