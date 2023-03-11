@@ -60,7 +60,7 @@
 }
 .contact-email-entities{
     width: 100%;
-    margin: 1vh 0 1vh 0;
+    margin: 0.6rem 0;
 }
 .email-btn-box{
     position: relative;
@@ -95,11 +95,10 @@
     outline: none;
     font-size: 18px;
     background: transparent;
-    border: 1.5px solid var(--neon);
+    border: 1px solid var(--neon);
     color: var(--neon);
-    padding: 6px 20px;
+    padding: 5px 20px;
     height: 5.5vh;
-    border-radius: 2px;
     /* width: 7vw; */
     width: 90px;
     cursor: pointer;

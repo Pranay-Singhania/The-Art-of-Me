@@ -5,6 +5,9 @@
 .projects-page{
     width: 100%;
 }
+.project-description-container{
+    color:#bababa;
+}
 .project-description-container svg{
     font-size: 1.5rem;
 }
@@ -39,6 +42,7 @@
     z-index: -1;
 }
 .projects-page-img{
+    opacity: 0.8;
     width: 30rem;
     height: 15rem;
     border-radius: 5px;

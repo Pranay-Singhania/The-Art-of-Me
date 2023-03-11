@@ -9,7 +9,7 @@ const AboutPage = () => {
         <h1>About Me</h1>
         <div className="about-container">
           <div className="about-right">
-            <img src={img2} width="340px" alt="" data-aos="fade-right" data-aos-duration="1000" />
+            <img src={img2} width="340px" alt="" data-aos="fade-left" data-aos-duration="1000" />
           </div>
           <div className="about-left" data-aos="fade-right" data-aos-duration="1000">
             <p className="about-desc">

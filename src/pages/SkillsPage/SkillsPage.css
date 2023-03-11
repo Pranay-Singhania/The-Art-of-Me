@@ -53,24 +53,27 @@
     margin-top:2rem;
 }
 .skills-icon{
-    width: 100px;
-    height: 100px;
-    padding: auto;
-    margin: 25px;
-    border-radius: 15px;
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem;
+    border: 1px solid #bababa;
+    margin: 1.5rem;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    box-shadow: 8px 8px 10px #26282A, -8px -8px 10px #26282A,-8px 8px 10px #26282A,8px -8px 10px #26282A;
     background-color: #121317;
 }
 .skills-icons-set-familiar{
     margin-top: 35px;
 }
 .skills-icons-set-familiar p{
-    margin-right: 30px;
+    margin-right: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.fam{
+    margin: 1.5rem 1.2rem;
 }
