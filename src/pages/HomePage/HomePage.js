@@ -17,7 +17,7 @@ const HomePage = () => {
           <span className="third-block">I'm a frontend developer.</span>
         </h1>
         <a className="fourth-block">
-          <Link to="projects" smooth={true}>
+          <Link to="projects" smooth={true} duration={250}>
             <button className="hero-btn slide-btn flex-center">
               <span>View Work &nbsp;</span>
               <span>

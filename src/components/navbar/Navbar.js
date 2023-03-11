@@ -12,22 +12,22 @@ const Navbar = () => {
       </div>
       <div className="nav-right">
         <span className="nav-link underline-btn">
-          <Link to="about" smooth={true} duration={500}>
+          <Link to="about" smooth={true} duration={250}>
             about
           </Link>
         </span>
         <span className="nav-link underline-btn">
-          <Link to="skills" smooth={true} duration={500}>
+          <Link to="skills" smooth={true} duration={250}>
             skills
           </Link>
         </span>
         <span className="nav-link underline-btn">
-          <Link to="projects" smooth={true} duration={500}>
+          <Link to="projects" smooth={true} duration={250}>
             projects
           </Link>
         </span>
         <span className="nav-link underline-btn">
-          <Link to="contact" smooth={true} duration={500}>
+          <Link to="contact" smooth={true} duration={250}>
             contact
           </Link>
         </span>

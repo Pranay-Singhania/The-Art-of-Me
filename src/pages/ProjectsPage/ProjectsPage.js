@@ -61,7 +61,7 @@ const ProjectsPage = () => {
                 <li>Optimized for all devices: desktop, tablet, and mobile.</li>
               </ul>
               <div className="projecttwo-links">
-                <a href="https://github.com/Pranay-Singhania/ClickBait/" target="_blank">
+                <a href="https://pranay-singhania.github.io/The-Art-of-Me/" target="_blank">
                   <button className="live-projects-links proj-slide-btn">
                     <span className="live-projects-links-span">Live</span>
                     <span>
