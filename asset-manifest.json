@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/The-Art-of-Me/static/css/main.b65fce58.css",
+    "main.js": "/The-Art-of-Me/static/js/main.970cd957.js",
+    "static/media/contactimg.gif": "/The-Art-of-Me/static/media/contactimg.d548ae45fbd79060d48d.gif",
+    "static/media/ecom_pc.png": "/The-Art-of-Me/static/media/ecom_pc.1ec395ae7b49f1c8d29a.png",
+    "static/media/overlay-img.png": "/The-Art-of-Me/static/media/overlay-img.bad26dc9cd8798f06e25.png",
+    "static/media/heroimg.png": "/The-Art-of-Me/static/media/heroimg.d64b40e3e692c36f3e3d.png",
+    "static/media/portfolio_pc.png": "/The-Art-of-Me/static/media/portfolio_pc.92fcf2843db9d2c0a1a9.png",
+    "static/media/redux.png": "/The-Art-of-Me/static/media/redux.df7d654653f8dca06c92.png",
+    "static/media/ss.png": "/The-Art-of-Me/static/media/ss.0a696a10c6b7628a149e.png",
+    "static/media/parcel.png": "/The-Art-of-Me/static/media/parcel.3b0452a5f418f246bde9.png",
+    "static/media/aboutimg.jpg": "/The-Art-of-Me/static/media/aboutimg.2f7bcada18df3c3db82d.jpg",
+    "static/media/react.png": "/The-Art-of-Me/static/media/react.dceaa1723fa4b0f19ff5.png",
+    "static/media/sass.png": "/The-Art-of-Me/static/media/sass.b4856dfeb58fd76614f8.png",
+    "static/media/css.png": "/The-Art-of-Me/static/media/css.e31e30fbd381c3f058df.png",
+    "static/media/edit2.jpg": "/The-Art-of-Me/static/media/edit2.e01e86dcb0263f79bd17.jpg",
+    "static/media/html.png": "/The-Art-of-Me/static/media/html.5139eb66b02855a1c137.png",
+    "static/media/js.png": "/The-Art-of-Me/static/media/js.60dbbe1569571db1eda7.png",
+    "static/media/ts.png": "/The-Art-of-Me/static/media/ts.f5ad3ca42b2cec137017.png",
+    "index.html": "/The-Art-of-Me/index.html",
+    "main.b65fce58.css.map": "/The-Art-of-Me/static/css/main.b65fce58.css.map",
+    "main.970cd957.js.map": "/The-Art-of-Me/static/js/main.970cd957.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b65fce58.css",
+    "static/js/main.970cd957.js"
+  ]
+}
