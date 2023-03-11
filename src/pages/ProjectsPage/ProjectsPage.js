@@ -8,7 +8,6 @@ import LiveTvIcon from "@mui/icons-material/LiveTv";
 import { Link } from "react-scroll";
 
 const ProjectsPage = () => {
-  console.log(data);
   return (
     <>
       <section className="projects-section" name="projects">

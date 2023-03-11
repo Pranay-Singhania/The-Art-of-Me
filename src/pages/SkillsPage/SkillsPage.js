@@ -1,6 +1,6 @@
 import React from "react";
 import "./SkillsPage.css";
-import { html_icon, css_icon, js_icon, react_icon, redux_icon, sass_icon, parcel_icon, ts_icon } from "../../utils/images";
+import { html_icon, css_icon, js_icon, react_icon, redux_icon, sass_icon, ts_icon, git_icon } from "../../utils/images";
 
 const SkillsPage = () => {
   return (
@@ -37,7 +37,7 @@ const SkillsPage = () => {
               <span>SASS</span>
             </div>
             <div className="skills-icon">
-              <img src={parcel_icon} width="48px" alt="" />
+              <img src={git_icon} width="48px" alt="" />
               <span>Parcel</span>
             </div>
             <div className="skills-icon">

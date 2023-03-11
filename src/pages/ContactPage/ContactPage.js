@@ -50,7 +50,7 @@ const ContactPage = () => {
         "service_aummo7m",
         "template_ak101nz",
         form.current,
-        "9jq4GtJIEBJ1p06JJ"
+        "7cq4NtJIEBL1p06JH"
         //7cq4NtJIEBL1p06JH right key
         //9jq4GtJIEBJ1p06JJ wrong key
       )
@@ -60,13 +60,11 @@ const ContactPage = () => {
           setShowConfetti(true);
           setMsg("Sent");
           setShowSentMsg(true);
-          console.log(result.text);
         },
         (error) => {
           setShowLoader(false);
           setMsg("Error");
           setShowSentMsg(true);
-          console.log(error.text);
         }
       );
   };
