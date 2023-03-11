@@ -42,10 +42,10 @@
     content:'Skills';
     /* color:#242124; */
     color:#26282A;
-    font-size: 170px;
+    font-size: 10rem;
     position: absolute;
-    top: -110px;
-    left: -100px;
+    top: -6rem;
+    left: -2rem;
     z-index: -1;
 }
 .skills-icons-set{

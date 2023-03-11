@@ -35,10 +35,10 @@
     content:'Projects';
     /* color:#242124; */
     color:#26282A;
-    font-size: 170px;   /*190px*/
+    font-size: 10rem;
     position: absolute;
-    top: -110px;
-    right: -30px;
+    top: -6rem;
+    right: -2rem;
     z-index: -1;
 }
 .projects-page-img{
