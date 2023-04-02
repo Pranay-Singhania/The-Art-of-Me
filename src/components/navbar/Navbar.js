@@ -31,7 +31,9 @@ const Navbar = () => {
             contact
           </Link>
         </span>
-        <button className="nav-resume-btn slide-btn">Resume</button>
+        <a href="https://drive.google.com/file/d/1PjEFXtdwUo9RywBHI5cA8YixUfnNYyQf/view?usp=sharing" target="_blank">
+          <button className="nav-resume-btn slide-btn">Resume</button>
+        </a>
       </div>
     </nav>
   );
