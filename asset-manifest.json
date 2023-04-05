@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/The-Art-of-Me/static/css/main.5344dc35.css",
-    "main.js": "/The-Art-of-Me/static/js/main.66fff0c5.js",
+    "main.js": "/The-Art-of-Me/static/js/main.6903750d.js",
     "static/media/contactimg.gif": "/The-Art-of-Me/static/media/contactimg.d548ae45fbd79060d48d.gif",
     "static/media/ecom_pc.png": "/The-Art-of-Me/static/media/ecom_pc.1ec395ae7b49f1c8d29a.png",
     "static/media/overlay-img.png": "/The-Art-of-Me/static/media/overlay-img.bad26dc9cd8798f06e25.png",
@@ -21,10 +21,10 @@
     "static/media/tailwind.png": "/The-Art-of-Me/static/media/tailwind.ff6c37743087090a2580.png",
     "index.html": "/The-Art-of-Me/index.html",
     "main.5344dc35.css.map": "/The-Art-of-Me/static/css/main.5344dc35.css.map",
-    "main.66fff0c5.js.map": "/The-Art-of-Me/static/js/main.66fff0c5.js.map"
+    "main.6903750d.js.map": "/The-Art-of-Me/static/js/main.6903750d.js.map"
   },
   "entrypoints": [
     "static/css/main.5344dc35.css",
-    "static/js/main.66fff0c5.js"
+    "static/js/main.6903750d.js"
   ]
 }
