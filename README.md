@@ -22,6 +22,7 @@ This is my personal **portfolio** website, developed using React, EmailJs, and C
 
 ## **Installation**
 This website does not require any installation or setup. 
+<br>
 You can simply visit the website at https://pranay-singhania.github.io/The-Art-of-Me/.
 
 ## **Contact**
